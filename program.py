@@ -9,11 +9,12 @@ while choice.upper() != 'D' :
     choice = input ("Enter Selection [A, B, C, D]: ")
     if (choice.upper() == 'A'):
         print ("Add  Record")
-        addRec()
+        addRec ()
     elif (choice.upper() == 'B'):
         print ("View Records")
         viewRec ()
     elif (choice.upper() == 'C'):
         print ("Clear Records")
+        clearRec()
     elif (choice.upper() == 'D'):
         print ("Thank you! ")
