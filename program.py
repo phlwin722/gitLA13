@@ -18,3 +18,10 @@ while choice.upper() != 'D' :
         clearRec()
     elif (choice.upper() == 'D'):
         print ("Thank you! ")
+        
+try:
+ filename = 'file1.txt'
+ file = open(filename, "x")
+ print(filename + " successfully created.")
+except:
+ print(filename + " already exists.")
